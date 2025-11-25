@@ -1,0 +1,57 @@
+body{ 
+    background-color: #FAE3E3;
+}
+header {    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 20px;
+    width: 90%;
+    height: fit-content;
+}
+   .logo{ display: flex;
+     align-items: center;
+     gap: 20px;
+}
+.selections{ 
+    background-color:  #D6A5A5;
+    height:fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.selections a{
+    padding:0 25px;
+    font-size: 20px;
+    color: #000;
+    text-decoration: none;
+}
+.flowers{
+    display: flex;
+    justify-content: center;
+    width:90%;
+    gap:40px;
+    padding:30px 100px; 
+}
+div.Bougainvillea,
+div.Rose,
+div.calendula{ 
+    display: flex;
+    flex-direction: column;
+    flex-basis: 300px;
+    padding:10px;
+    background-color:  #D6A5A5;
+    align-items: center;
+}
+.link{
+    padding: 20px;
+    background-color:  #D6A5A5;
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.link a{
+    padding:0px 0px 0px 50px;
+}
+
